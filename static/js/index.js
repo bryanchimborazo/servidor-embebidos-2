@@ -18,16 +18,6 @@ function LED1_Off(){
 	//document.getElementById("sensor").innerHTML="led off";
 }
 
-{
-	n=0
-while 1:
-    time.sleep(1)
-    valor1=random.randint(1,10)
-    valor2=random.randint(10,20)
-    client.publish('bryan.chimborazo@unach.edu.ec/Topico1',str(n)+';'+str(valor1)+';'+str(valor2))
-    client.loop()
-    n=n+1
-}
 
 
 
